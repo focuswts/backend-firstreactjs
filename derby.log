@@ -1,0 +1,256 @@
+----------------------------------------------------------------
+Wed Jul 10 09:23:27 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016b-dbd6-aa7b-000005a9d4b8 
+on database directory C:\BGTSystems\bgtparkingsystem with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:24:10 BRT 2019:
+Shutting down instance a816c00e-016b-dbd6-aa7b-000005a9d4b8 on database directory C:\BGTSystems\bgtparkingsystem with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Wed Jul 10 09:24:10 BRT 2019 Thread[Thread-28,5,main] Cleanup action starting
+ERROR XBM0I: Directory c:/BGTSystems/bgtparkingsystem cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Wed Jul 10 09:24:10 BRT 2019 Thread[Thread-28,5,main] Cleanup action starting
+ERROR XBM0I: Directory c:/BGTSystems/bgtparkingsystem cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Wed Jul 10 09:24:13 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a094c023-016b-dbd6-aa7b-000005a9d4b8 
+on database directory C:\BGTSystems\bgtparkingsystem with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:32:38 BRT 2019:
+Shutting down instance a094c023-016b-dbd6-aa7b-000005a9d4b8 on database directory C:\BGTSystems\bgtparkingsystem with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Wed Jul 10 09:32:38 BRT 2019 Thread[Thread-47,5,main] Cleanup action starting
+ERROR XBM0I: Directory c:/BGTSystems/bgtparkingsystem cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Wed Jul 10 09:32:38 BRT 2019 Thread[Thread-47,5,main] Cleanup action starting
+ERROR XBM0I: Directory c:/BGTSystems/bgtparkingsystem cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Wed Jul 10 09:32:40 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 09324032-016b-dbd6-aa7b-000005a9d4b8 
+on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:34:30 BRT 2019:
+Shutting down instance 09324032-016b-dbd6-aa7b-000005a9d4b8 on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Wed Jul 10 09:34:33 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 1a6500e9-016b-dbd6-aa7b-000005a9d4b8 
+on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:34:38 BRT 2019:
+Shutting down instance 1a6500e9-016b-dbd6-aa7b-000005a9d4b8 on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Wed Jul 10 09:34:41 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 1315819d-016b-dbd6-aa7b-000005a9d4b8 
+on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:35:04 BRT 2019:
+Shutting down instance 1315819d-016b-dbd6-aa7b-000005a9d4b8 on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Wed Jul 10 09:35:07 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 05278254-016b-dbd6-aa7b-000005a9d4b8 
+on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:35:25 BRT 2019:
+Shutting down instance 05278254-016b-dbd6-aa7b-000005a9d4b8 on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Wed Jul 10 09:35:27 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 47edc30b-016b-dbd6-aa7b-000005a9d4b8 
+on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:35:33 BRT 2019:
+Shutting down instance 47edc30b-016b-dbd6-aa7b-000005a9d4b8 on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Wed Jul 10 09:35:35 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 4b6843c2-016b-dbd6-aa7b-000005a9d4b8 
+on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:36:24 BRT 2019:
+Shutting down instance 4b6843c2-016b-dbd6-aa7b-000005a9d4b8 on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Wed Jul 10 09:36:26 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 7f970479-016b-dbd6-aa7b-000005a9d4b8 
+on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:36:29 BRT 2019:
+Shutting down instance 7f970479-016b-dbd6-aa7b-000005a9d4b8 on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Wed Jul 10 09:36:31 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 547a0530-016b-dbd6-aa7b-000005a9d4b8 
+on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:36:34 BRT 2019:
+Shutting down instance 547a0530-016b-dbd6-aa7b-000005a9d4b8 on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Wed Jul 10 09:36:37 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 3a1145e7-016b-dbd6-aa7b-000005a9d4b8 
+on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/1676886/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_211-b12
+user.dir=C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 10 09:38:09 BRT 2019:
+Shutting down instance 3a1145e7-016b-dbd6-aa7b-000005a9d4b8 on database directory memory:C:\Users\1676886\Practice Applications\ReactJS\BackEnd\backend-firstreactjs-master2\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
