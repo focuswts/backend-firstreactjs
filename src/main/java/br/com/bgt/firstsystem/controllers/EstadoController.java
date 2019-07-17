@@ -51,7 +51,6 @@ public class EstadoController {
 		estadoService.deleteById(id);
 
 		String response = "success";
-
 		return new ResponseEntity<>("Deleted", HttpStatus.OK);
 
 	}
