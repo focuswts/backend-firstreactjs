@@ -50,7 +50,6 @@ public class EstadoController {
 		System.out.println("Delete Estado API");
 		estadoService.deleteById(id);
 
-		String response = "success";
 		return new ResponseEntity<>("Deleted", HttpStatus.OK);
 
 	}

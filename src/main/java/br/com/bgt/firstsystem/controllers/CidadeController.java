@@ -1,6 +1,7 @@
 package br.com.bgt.firstsystem.controllers;
 
 import java.util.List;
+import java.util.Optional;
 
 import javax.validation.Valid;
 
@@ -18,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.bgt.firstsystem.entities.Cidade;
 import br.com.bgt.firstsystem.entities.Estado;
 import br.com.bgt.firstsystem.repository.CidadeRepository;
+import br.com.bgt.firstsystem.repository.EstadoRepository;
 
 @RestController
 @CrossOrigin("*")
@@ -25,6 +27,9 @@ public class CidadeController {
 
 	@Autowired
 	private CidadeRepository cidadeService;
+
+	@Autowired
+	private EstadoRepository estadoService;
 
 	@RequestMapping(value = "/cidade/all", method = RequestMethod.GET)
 	public List<Cidade> getAllCidades() {
@@ -48,18 +53,32 @@ public class CidadeController {
 	public ResponseEntity<String> deleteCidade(@PathVariable long id) {
 		System.out.println("Delete Cidade API");
 		cidadeService.deleteById(id);
-		String response = "success";
 		return new ResponseEntity<>("Deleted", HttpStatus.OK);
 	}
 
 	@RequestMapping(value = "/cidade/create", method = RequestMethod.POST)
 	public Cidade createCidade(@Valid @RequestBody Cidade cidade) {
-		return cidadeService.save(cidade);
+		Optional<Estado> estadoOptional = estadoService.findById(cidade.getIdEstado().getId());
+
+		if (estadoOptional.isPresent()) {
+			cidade.setIdEstado(estadoOptional.get());
+			return cidadeService.save(cidade);
+		} else {
+			return null;
+		}
+
 	}
 
 	@RequestMapping(value = "/cidade/update", method = RequestMethod.PUT)
 	public Cidade updateCidade(@Valid @RequestBody Cidade cidade) {
-		return cidadeService.save(cidade);
+		Optional<Estado> estadoOptional = estadoService.findById(cidade.getIdEstado().getId());
+
+		if (estadoOptional.isPresent()) {
+			cidade.setIdEstado(estadoOptional.get());
+			return cidadeService.save(cidade);
+		} else {
+			return null;
+		}
 	}
 
 }

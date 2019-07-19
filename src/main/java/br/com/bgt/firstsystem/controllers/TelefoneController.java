@@ -80,7 +80,6 @@ public class TelefoneController {
 	public ResponseEntity<String> deleteTelefone(@PathVariable long id) {
 		System.out.println("Delete Telefone API");
 		telefoneService.deleteById(id);
-		String response = "success";
 		return new ResponseEntity<>("Deleted", HttpStatus.OK);
 	}
 
@@ -100,7 +99,14 @@ public class TelefoneController {
 
 	@RequestMapping(value = "/telefone/update", method = RequestMethod.PUT)
 	public Telefone updateTelefone(@Valid @RequestBody Telefone telefone) {
-		return telefoneService.save(telefone);
+		Optional<Mensalista> mensalista = mensalistaService.findById(telefone.getIdMensalista().getId());
+		if (mensalista.isPresent()) {
+
+			telefone.setIdMensalista(mensalista.get());
+			return telefoneService.save(telefone);
+		} else {
+			return null;
+		}
 	}
 
 }
