@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.bgt.firstsystem.entities.Estado;
-import br.com.bgt.firstsystem.entities.User;
 import br.com.bgt.firstsystem.repository.EstadoRepository;
 
 @RestController

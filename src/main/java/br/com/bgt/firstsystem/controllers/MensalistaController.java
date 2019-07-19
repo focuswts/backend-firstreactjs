@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.bgt.firstsystem.entities.Estado;
 import br.com.bgt.firstsystem.entities.Mensalista;
 import br.com.bgt.firstsystem.repository.MensalistaRepository;
 
@@ -50,7 +49,6 @@ public class MensalistaController {
 		System.out.println("Delete Mensalista API");
 		mensalistaService.deleteById(id);
 
-		String response = "success";
 		return new ResponseEntity<>("Deleted", HttpStatus.OK);
 
 	}

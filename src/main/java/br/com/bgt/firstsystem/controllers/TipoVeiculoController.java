@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.bgt.firstsystem.entities.Marca;
 import br.com.bgt.firstsystem.entities.TipoVeiculo;
 import br.com.bgt.firstsystem.repository.TipoVeiculoRepository;
 

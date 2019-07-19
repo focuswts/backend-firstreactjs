@@ -58,7 +58,6 @@ public class EnderecoController {
 	public ResponseEntity<String> deleteEndereco(@PathVariable long id) {
 		System.out.println("Delete Endereco API");
 		enderecoService.deleteById(id);
-		String response = "success";
 		return new ResponseEntity<>("Deleted", HttpStatus.OK);
 	}
 
