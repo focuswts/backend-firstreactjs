@@ -28,12 +28,12 @@ public class EstadoController {
 
 	@RequestMapping(value = "/estado/all", method = RequestMethod.GET)
 	public List<Estado> getAllEstados() {
-		System.out.println("Get ALl Users API");
+		System.out.println("Get ALl Estados API");
 		return estadoService.findAll();
 	}
 
 	@RequestMapping(value = "/estado/find/{id}", method = RequestMethod.GET)
-	public Estado getEstadoById(@PathVariable long id) {
+	public Estado getEstadoById(@PathVariable("id") long id) {
 		System.out.println("Get Estado By Id API");
 		Estado estado = estadoService.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException("Estado Não Encontrado para esse id: " + id));

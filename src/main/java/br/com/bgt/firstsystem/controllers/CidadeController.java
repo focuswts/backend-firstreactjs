@@ -36,7 +36,7 @@ public class CidadeController {
 	public Cidade getCidadeById(@PathVariable long id) {
 		System.out.println("Get Estado By Id API");
 		Cidade cidade = cidadeService.findById(id)
-				.orElseThrow(() -> new ResourceNotFoundException("Estado Não Encontrado para esse id: " + id));
+				.orElseThrow(() -> new ResourceNotFoundException("Cidade Não Encontrado para esse id: " + id));
 
 		if (cidade == null) {
 			return null;
@@ -57,7 +57,7 @@ public class CidadeController {
 		return cidadeService.save(cidade);
 	}
 
-	@RequestMapping(value = "/cidade/update", method = RequestMethod.POST)
+	@RequestMapping(value = "/cidade/update", method = RequestMethod.PUT)
 	public Cidade updateCidade(@Valid @RequestBody Cidade cidade) {
 		return cidadeService.save(cidade);
 	}
